@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    width:80%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+.box{
+    background:#e8f4ff;
+    padding:15px;
+    margin:15px 0;
+    border-left:5px solid #0077cc;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Website</h1>
+        <p>Welcome to My Portfolio</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Priya Parmar.
+            I am a Computer Engineering student.
+            I enjoy Web Development, Programming, and Learning New Technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C Programming</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="box">
+            <h3>Student Management System</h3>
+            <p>Developed using HTML, CSS and SQL.</p>
+        </div>
+
+        <div class="box">
+            <h3>Online Quiz Website</h3>
+            <p>A responsive quiz website using HTML, CSS and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: priya@example.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Personal Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
